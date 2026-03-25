@@ -20646,6 +20646,7 @@ sort: by_weight
 雅溪镇	yǎ;yf xī;dd zhèn;jb	1
 崖西镇	yá;et xī;aa zhèn;jb	1
 鸭溪镇	yā;jn xī;dd zhèn;jb	1
+亚先河	yà;ay xiān;ne hé;dk	38
 雅星镇	yǎ;yf xīng;ou zhèn;jb	1
 雅阳镇	yǎ;yf yáng;eo zhèn;jb	1
 雅瑶乡	yǎ;yf yáo;wf xiāng;vp	1
@@ -43681,12 +43682,12 @@ sort: by_weight
 盟格庄村	méng;om gé;mk zhuāng;gt cūn;mc	1
 孟姑集乡	mèng;zm gū;nk jí;rm xiāng;vp	1
 孟姑集镇	mèng;zm gū;nk jí;rm zhèn;jb	1
-蒙古寺村	méng;cu gǔ;uk sì;tc cūn;mc	1
-蒙古屯乡	méng;cu gǔ;uk tún;av xiāng;vp	1
+蒙古寺村	měng;cu gǔ;uk sì;tc cūn;mc	1
+蒙古屯乡	měng;cu gǔ;uk tún;av xiāng;vp	1
 孟孤屋村	mèng;zm gū;zg wū;ut cūn;mc	1
-蒙古营村	méng;cu gǔ;uk yíng;ck cūn;mc	1
-蒙古营乡	méng;cu gǔ;uk yíng;ck xiāng;vp	1
-蒙古营镇	méng;cu gǔ;uk yíng;ck zhèn;jb	1
+蒙古营村	měng;cu gǔ;uk yíng;ck cūn;mc	1
+蒙古营乡	měng;cu gǔ;uk yíng;ck xiāng;vp	1
+蒙古营镇	měng;cu gǔ;uk yíng;ck zhèn;jb	1
 孟官营村	mèng;zm guān;bk yíng;ck cūn;mc	1
 孟贯庄村	mèng;zm guàn;gr zhuāng;gt cūn;mc	1
 蒙海子村	méng;cu hǎi;dm zǐ;va cūn;mc	1
@@ -70247,12 +70248,12 @@ sort: by_weight
 巴里坤哈萨克自治县	bā;vv,sl lǐ;la kūn;tu hā;kk sà;ci kè;ue zì;po zhì;dk xiàn;qs	1
 巴里坤县山南开发区	bā;vv,sl lǐ;la kūn;tu xiàn;qs shān;lk nán;ug kāi;ac fā;vd qū;kx	1
 巴彦托海经济开发区	bā;vv,sl yàn;ip tuō;fq hǎi;dm jīng;sg jì;dl kāi;ac fā;vd qū;kx	1
-巴音郭楞蒙古自治州	bā;vv,sl yīn;lo guō;we léng;mf méng;cu gǔ;uk zì;po zhì;dk zhōu;dl	1
+巴音郭楞蒙古自治州	bā;vv,sl yīn;lo guō;we léng;mf měng;cu gǔ;uk zì;po zhì;dk zhōu;dl	1
 白浪开发区白浪街道	bái;po làng;dl kāi;ac fā;vd qū;kx bái;po làng;dl jiē;ii dào;zz	1
 保亭黎族苗族自治县	bǎo;rm tíng;wd lí;hu zú;fu miáo;ct zú;fu zì;po zhì;dk xiàn;qs	1
 北京经济技术开发区	běi;lb jīng;wx jīng;sg jì;dl jì;fy shù;md kāi;ac fā;vd qū;kx	1
 北京雁栖经济开发区	běi;lb jīng;wx yàn;if qī;mx jīng;sg jì;dl kāi;ac fā;vd qū;kx	1
-博尔塔拉蒙古自治州	bó;uc ěr;dx tǎ;tk lā;fl méng;cu gǔ;uk zì;po zhì;dk zhōu;dl	1
+博尔塔拉蒙古自治州	bó;uc ěr;dx tǎ;tk lā;fl měng;cu gǔ;uk zì;po zhì;dk zhōu;dl	1
 博孜墩柯尔克孜族乡	bó;uc zī;zw dūn;tw kē;mk ěr;dx kè;ue zī;zw zú;fu xiāng;vp	1
 布依鲁克塔吉克族乡	bù;uj yī;ry lǔ;ao kè;ue tǎ;tk jí;uk kè;ue zú;fu xiāng;vp	1
 查巴奇鄂温克民族乡	chá;ma bā;vv,sl qí;dk è;ke wēn;dm kè;ue mín;vv zú;fu xiāng;vp	1
@@ -70339,7 +70340,7 @@ sort: by_weight
 湖北曾都经济开发区	hú;do běi;lb zēng;bo dū;le jīng;sg jì;dl kāi;ac fā;vd qū;kx	1
 湖北钟祥经济开发区	hú;do běi;lb zhōng;jv xiáng;py jīng;sg jì;dl kāi;ac fā;vd qū;kx	1
 呼和浩特综合保税区	hū;kh hé;hk hào;dk tè;nc zōng;sx hé;rk bǎo;rm shuì;he qū;kx	1
-呼吉尔特蒙古民族乡	hū;kh jí;uk ěr;dx tè;nc méng;cu gǔ;uk mín;vv zú;fu xiāng;vp	1
+呼吉尔特蒙古民族乡	hū;kh jí;uk ěr;dx tè;nc měng;cu gǔ;uk mín;vv zú;fu xiāng;vp	1
 胡家湾苗族土家族乡	hú;uo jiā;bu wān;dg miáo;ct zú;fu tǔ;ua jiā;bu zú;fu xiāng;vp	1
 湖南醴陵经济开发区	hú;do nán;ug lǐ;ya líng;ew jīng;sg jì;dl kāi;ac fā;vd qū;kx	1
 桦南林业局岚峰林场	huà;mu nán;ug lín;mm yè;la jú;uk lán;ex fēng;ef lín;mm chǎng;tp	1
@@ -70350,7 +70351,7 @@ sort: by_weight
 会昌县燕子窝工业园	huì;rs chāng;oo xiàn;qs yàn;nh zi;va wō;bn gōng;aa yè;la yuán;ke
 惠南高新科技产业园	huì;ax nán;ug gāo;wk xīn;lj kē;hu jì;fy chǎn;wi,lp yè;la yuán;ke
 徽州区直辖村级区划	huī;iw zhōu;dl qū;kx zhí;uq xiá;ik cūn;mc jí;sj qū;kx huà;gd
-霍吉尔特蒙古民族乡	huò;yf jí;uk ěr;dx tè;nc méng;cu gǔ;uk mín;vv zú;fu xiāng;vp	1
+霍吉尔特蒙古民族乡	huò;yf jí;uk ěr;dx tè;nc měng;cu gǔ;uk mín;vv zú;fu xiāng;vp	1
 吉林白城经济开发区	jí;uk lín;mm bái;po chéng;ti jīng;sg jì;dl kāi;ac fā;vd qū;kx	1
 吉林船营经济开发区	jí;uk lín;mm chuán;vk yíng;ck jīng;sg jì;dl kāi;ac fā;vd qū;kx	1
 吉林宁江经济开发区	jí;uk lín;mm níng;bd jiāng;dg jīng;sg jì;dl kāi;ac fā;vd qū;kx	1
@@ -70581,7 +70582,7 @@ sort: by_weight
 杜尔伯特蒙古族自治县	dù;mt ěr;dx bó;rb tè;nc měng;cu gǔ;uk zú;fu zì;po zhì;dk xiàn;qs	1
 鄂尔多斯空港物流园区	è;ke ěr;dx duō;xx sī;qj kōng;bg gǎng;ds wù;nw liú;dv yuán;ke qū;kx	1
 鄂尔多斯市生态示范区	è;ke ěr;dx duō;xx sī;qj shì;wj shēng;pf tài;tx shì;ex fàn;cv qū;kx	1
-额玛勒郭楞蒙古民族乡	é;br mǎ;wm lè;gl guō;we léng;mf méng;cu gǔ;uk mín;vv zú;fu xiāng;vp	1
+额玛勒郭楞蒙古民族乡	é;br mǎ;wm lè;gl guō;we léng;mf měng;cu gǔ;uk mín;vv zú;fu xiāng;vp	1
 恩施大峡谷风景管理处	ēn;kx shī;fy dà;un xiá;ej gǔ;bk fēng;jx jǐng;ox guǎn;vk lǐ;wl chù;wb
 恩施土家族苗族自治州	ēn;kx shī;fy tǔ;ua jiā;bu zú;fu miáo;ct zú;fu zì;po zhì;dk zhōu;dl	1
 佛宝山生态综合开发区	fó;rf bǎo;by shān;lk shēng;pf tài;tx zōng;sx hé;rk kāi;ac fā;vd qū;kx	1
@@ -70596,7 +70597,7 @@ sort: by_weight
 哈日布日格德音乌拉镇	hā;kk rì;ka bù;uj rì;ka gé;mk dé;ix yīn;lo wù;pa la;fl zhèn;jb	1
 海西蒙古族藏族自治州	hǎi;dm xī;aa měng;cu gǔ;uk zú;fu zàng;ci zú;fu zì;po zhì;dk zhōu;dl	1
 汉川市经济技术开发区	hàn;dy chuān;pl shì;wj jīng;sg jì;dl jì;fy shù;md kāi;ac fā;vd qū;kx	1
-和布克赛尔蒙古自治县	hé;hk bù;uj kè;ue sài;br ěr;dx méng;cu gǔ;uk zì;po zhì;dk xiàn;qs	1
+和布克赛尔蒙古自治县	hé;hk bù;uj kè;ue sài;br ěr;dx měng;cu gǔ;uk zì;po zhì;dk xiàn;qs	1
 河南三门峡经济开发区	hé;dk nán;ug sān;ae mén;dv xiá;ej jīng;sg jì;dl kāi;ac fā;vd qū;kx	1
 河南驻马店经济开发区	hé;dk nán;ug zhù;mv mǎ;va diàn;gk jīng;sg jì;dl kāi;ac fā;vd qū;kx	1
 黑龙江红岗经济开发区	hēi;lh lóng;ud jiāng;dg hóng;sg gǎng;ex jīng;sg jì;dl kāi;ac fā;vd qū;kx	1
@@ -70675,7 +70676,7 @@ sort: by_weight
 四平市铁东区平南街道	sì;ke píng;au shì;wj tiě;ju dōng;ad qū;kx píng;au nán;ug jiē;ii dào;zz	1
 松林坡白族彝族苗族乡	sōng;ms lín;mm pō;ty bái;po zú;fu yí;vc zú;fu miáo;ct zú;fu xiāng;vp	1
 苏州高新区综合保税区	sū;cb zhōu;dl gāo;wk xīn;lj qū;kx zōng;sx hé;rk bǎo;rm shuì;he qū;kx	1
-塔布勒合特蒙古民族乡	tǎ;tk bù;uj lè;gl hé;rk tè;nc méng;cu gǔ;uk mín;vv zú;fu xiāng;vp	1
+塔布勒合特蒙古民族乡	tǎ;tk bù;uj lè;gl hé;rk tè;nc měng;cu gǔ;uk mín;vv zú;fu xiāng;vp	1
 太泊湖农业综合开发区	tài;dd pō;db hú;do nóng;dn yè;la zōng;sx hé;rk kāi;ac fā;vd qū;kx	1
 田横岛省级旅游度假区	tián;ku héng;mb dǎo;pe shěng;uo jí;sj lǚ;fn yóu;dz dù;gy jià;ry qū;kx	1
 天水市高新技术工业园	tiān;ad shuǐ;ln shì;wj gāo;wk xīn;lj jì;fy shù;md gōng;aa yè;la yuán;ke
@@ -70786,7 +70787,7 @@ sort: by_weight
 经济技术开发区乡级单位	jīng;sg jì;dl jì;fy shù;md kāi;ac fā;vd qū;kx xiāng;vp jí;sj dān;bl wèi;rl	1
 鸠江经济开发区二坝园区	jiū;jn jiāng;dg jīng;sg jì;dl kāi;ac fā;vd qū;kx èr;aa bà;tr yuán;ke qū;kx	1
 喀喇沁左翼蒙古族自治县	kā;kk lǎ;kd qìn;dx zuǒ;ug yì;xb měng;cu gǔ;uk zú;fu zì;po zhì;dk xiàn;qs	1
-科克浩特浩尔蒙古民族乡	kē;hu kè;ue hào;dk tè;nc hào;dk ěr;dx méng;cu gǔ;uk mín;vv zú;fu xiāng;vp	1
+科克浩特浩尔蒙古民族乡	kē;hu kè;ue hào;dk tè;nc hào;dk ěr;dx měng;cu gǔ;uk mín;vv zú;fu xiāng;vp	1
 克孜勒苏柯尔克孜自治州	kè;ue zī;zw lè;gl sū;cb kē;mk ěr;dx kè;ue zī;zw zì;po zhì;dk zhōu;dl	1
 昆明滇池国家旅游度假区	kūn;ob míng;oo diān;db chí;dy guó;ky jiā;bu lǚ;fn yóu;dz dù;gy jià;ry qū;kx	1
 辽宁省北镇市高山子监狱	liáo;zl níng;bd shěng;uo běi;lb zhèn;jb shì;wj gāo;wk shān;lk zǐ;va jiān;lm yù;qq	1
@@ -70900,7 +70901,7 @@ sort: by_weight
 呼和浩特白塔空港物流园区	hū;kh hé;hk hào;dk tè;nc bái;po tǎ;tk kōng;bg gǎng;ds wù;nw liú;dv yuán;ke qū;kx	1
 葫芦岛高新技术产业开发区	hú;co lu;ch dǎo;pe gāo;wk xīn;lj jì;fy shù;md chǎn;wi,lp yè;la kāi;ac fā;vd qū;kx	1
 淮河社区行政事务管理中心	huái;df hé;dk shè;pt qū;kx xíng;ii zhèng;vw shì;al wù;wl guǎn;vk lǐ;wl zhōng;ll xīn;dd	1
-吉尔格勒特郭愣蒙古民族乡	jí;uk ěr;dx gé;mk lè;gl tè;nc guō;we lèng;xf méng;cu gǔ;uk mín;vv zú;fu xiāng;vp	1
+吉尔格勒特郭愣蒙古民族乡	jí;uk ěr;dx gé;mk lè;gl tè;nc guō;we lèng;xf měng;cu gǔ;uk mín;vv zú;fu xiāng;vp	1
 阔克铁热克柯尔克孜民族乡	kuò;mk kè;ue tiě;ju rè;fh kè;ue kē;mk ěr;dx kè;ue zī;zw mín;vv zú;fu xiāng;vp	1
 涞水县城区社区管理办公室	lái;dl shuǐ;ln xiàn;qs chéng;ti qū;kx shè;pt qū;kx guǎn;vk lǐ;wl bàn;ld gōng;bs shì;bt	1
 孟连傣族拉祜族佤族自治县	mèng;zm lián;zi dǎi;ru zú;fu lā;fl hù;pk zú;fu wǎ;rw zú;fu zì;po zhì;dk xiàn;qs	1

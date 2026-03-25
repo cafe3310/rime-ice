@@ -12,9 +12,9 @@ app_options:
   idea64.exe:
       ascii_mode: false
       ascii_punct: true
-  Code.exe:
-      ascii_mode: false
-      ascii_punct: true
+  #Code.exe:
+  #    ascii_mode: false
+  #    ascii_punct: true
   Bandizip.exe:
     ascii_mode: true     # 英文模式
   7zFM.exe:
@@ -266,3 +266,4 @@ preset_color_schemes:
     hilited_comment_text_color: 0xefefef
     nextpage_color: 0x0000FF
     prevpage_color: 0x0000FF
+ 
