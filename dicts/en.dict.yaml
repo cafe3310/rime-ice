@@ -16,6 +16,7 @@ Si	Si
 Cl	Cl
 Ar	Ar
 Ca	Ca
+MV	MV
 BD	BD
 Sc	Sc
 Ti	Ti
@@ -16628,6 +16629,7 @@ datagrams	datagrams
 datagraph	datagraph
 DataGrip	DataGrip
 datalore	datalore
+DataFrame	DataFrame
 Datamation	Datamation
 Datamedia	Datamedia
 dataset	dataset
@@ -25853,6 +25855,7 @@ foxglove	foxglove
 Foxhall	Foxhall
 foxhole	foxhole
 foxhound	foxhound
+Foxit	Foxit
 foxiness	foxiness
 foxmail	foxmail
 FoxPro	FoxPro
@@ -25865,6 +25868,7 @@ FPGA	FPGA
 FPS	FPS
 fpu	fpu
 fracas	fracas
+fractal	fractal
 fraction	fraction
 fractional	fractional
 fractionalise	fractionalise
@@ -28909,7 +28913,6 @@ hagiology	hagiology
 hagridden	hagridden
 Hagstrom	Hagstrom
 Hague	Hague
-haha	haha
 Hahn	Hahn
 Haifa	Haifa
 haiku	haiku
@@ -35044,6 +35047,7 @@ junoesque	junoesque
 junta	junta
 junto	junto
 Jupiter	Jupiter
+Jupyter	Jupyter
 Jura	Jura
 Juras	Juras
 Jurassic	Jurassic
@@ -39056,7 +39060,7 @@ master	master
 masterbating	masterbating
 masterbation	masterbation
 master boot record	masterbootrecord
-mastercard	mastercard
+Mastercard	Mastercard
 mastered	mastered
 masterful	masterful
 masterfully	masterfully
@@ -68325,6 +68329,8 @@ vaunting	vaunting
 vauxhall	vauxhall
 VAX	VAX
 VAXes	VAXes
+VBS	VBS
+VBScript	VBScript
 vbulletin	vbulletin
 vc	vc
 VCD	VCD

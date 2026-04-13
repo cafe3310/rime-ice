@@ -260,9 +260,14 @@ local function get_predictions(env, prev_commit)
 
     -- 小于等于2先找上文组合查 2-Gram
     if #history >= 2 then 
+        local u0 = history[#history - 1]
         local u1 = history[#history]
-        if #get_utf8_chars(u1) <= 2 then
-            fetch_and_clean("2\t" .. history[#history - 1] .. "\t" .. u1 .. "\t", 10000) 
+        local len_u0 = #get_utf8_chars(u0)
+        local len_u1 = #get_utf8_chars(u1)
+        
+        -- 对齐写入时的条件：u1不超过4，且总和不超过5
+        if len_u1 <= 4 and (len_u0 + len_u1) <= 5 then
+            fetch_and_clean("2\t" .. u0 .. "\t" .. u1 .. "\t", 10000) 
         end
     end
 
@@ -614,24 +619,37 @@ function P.func(key, env)
     end
     
     if is_predicting then
-        local is_alt_key = (repr == "Tab" or repr == "Right" or repr == "backslash" or repr == "\\" or repr == "Alt" or repr == "Alt_L" or repr == "Alt_R")
+        local is_alt_key = (repr == "Tab" or repr == "Alt" or repr == "Alt_L" or repr == "Alt_R")
 
         -- 根据选词范围分流数字键
         if s_match(repr, "^[0-9]$") or s_match(repr, "^KP_[0-9]$") then
             local digit = s_match(repr, "%d")
             local d = tonumber(digit)
             if d == 0 then d = 10 end
-            -- 动态获取当前配置的每页候选词数（如 6）
-            local page_size = env.engine.schema.config:get_int("menu/page_size")
+            local config = env.engine.schema.config
+            local page_size = config:get_int("menu/page_size")
             
-            if d > page_size then
-                -- 超出选词范围的数字（如 7890）：直接清空占位符，打断联想，并上屏数字
+            local ctx = env.engine.context
+            local comp = ctx.composition
+            local seg = (comp and not comp:empty()) and comp:back() or nil
+            
+            local is_valid_candidate = false
+            
+            if seg then
+                local current_page = math.floor(seg.selected_index / page_size)
+                local target_index = current_page * page_size + (d - 1)
+                if seg:get_candidate_at(target_index) then
+                    is_valid_candidate = true
+                end
+            end
+            if d > page_size or not is_valid_candidate then
                 ctx:clear()
-                reset_memory_chain(env, "非选词数字打断联想并上屏")
+                if reset_memory_chain then
+                    reset_memory_chain(env, "非选词数字打断联想并上屏")
+                end
                 env.engine:commit_text(digit)
                 return 1
             else
-                -- 选词范围内的数字（如 1-6）：放行，让 super_processor 去执行正常的选词
                 return 2
             end
         end
@@ -666,6 +684,10 @@ function P.func(key, env)
     end
 
     if not ctx:is_composing() then
+        if repr == "Return" or repr == "KP_Enter" or key.keycode == 0x20 then
+            reset_memory_chain(env, "非输入状态排版打断")
+            return 2 
+        end
         local symbol_map = { ["?"] = "？", ["!"] = "！", [","] = "，", ["."] = "。" }
         if symbol_map[repr] then
             env.engine:commit_text(symbol_map[repr])
@@ -754,10 +776,13 @@ function F.func(input, env)
     if f_last_commit ~= last_commit then
         f_last_commit = last_commit
         f_reorder_map = nil
-        
-        -- 严格判断调频开关是否开启，没开绝不查库
-        if last_commit ~= "" and CONFIG.ENABLE_CONTEXT_REORDER then
-            -- 优先白嫖 P 模块查好的全局缓存，如果 P 模块没查（比如没开联想），F 就自己查一次作为兜底
+        local context_len = 0
+        if #history >= 2 then
+            local u0_len = #get_utf8_chars(history[#history - 1])
+            local u1_len = #get_utf8_chars(history[#history])
+            context_len = u0_len + u1_len
+        end
+        if context_len >= 3 and CONFIG.ENABLE_CONTEXT_REORDER then
             local preds = pending_cands or get_predictions(env, last_commit)
             if preds then
                 f_reorder_map = {}
@@ -773,11 +798,12 @@ function F.func(input, env)
         return
     end
 
-    local boosted = {} 
-    local normal = {}  
+    local boosted = {}
+    local normal = {}
     local count = 0
-    local max_scan = 20
+    local max_scan = 50
     local stop_scanning = false
+    local target_len = 0 -- 用于记录首选词的字数
 
     -- 实时匹配与拦截
     for cand in input:iter() do
@@ -786,8 +812,16 @@ function F.func(input, env)
         else
             count = count + 1
             local text = cand.text or ""
-            if cand.type == "raw" or cand.type == "english" or s_match(text, "^[a-zA-Z]+$") then
+            
+            local current_len = #get_utf8_chars(text)
+
+            if count == 1 then
+                target_len = current_len
+            end
+
+            if cand.type == "raw" or cand.type == "english" or s_match(text, "^[a-zA-Z]+$") or (count > 1 and current_len ~= target_len) then
                 stop_scanning = true
+                -- 结算已经收集到的同等字数的词
                 sort(boosted, function(a, b) return a.rank < b.rank end)
                 for _, b in ipairs(boosted) do yield(b.cand) end
                 for _, n in ipairs(normal) do yield(n) end

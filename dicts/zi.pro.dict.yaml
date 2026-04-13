@@ -89,6 +89,7 @@ sort: by_weight
 伌	ài;rv	38
 塧	ài;tm	23
 濭	ǎi;dm	23
+諰	āi;wx	6
 鴱	ài;cn	1
 𫘤	ái;mu	1
 㤅	ài;ax	1
@@ -105,7 +106,6 @@ sort: by_weight
 焥	ài;hv	1
 磑	ái;ua	1
 絠	ǎi;yo	1
-諰	āi;wx	1
 賹	ài;om	1
 隑	ái;ea	1
 㑸	ǎi;rk	1
@@ -1031,7 +1031,7 @@ sort: by_weight
 𩿓	bào;nn	1
 𪏶	bào;hs	1
 𪧕	bǎo;bf	1
-𠦀	bǎo;uu	1
+𠦀	bǎo;	1
 被	bèi;py	819
 呗	bei;kr	800
 北	běi;lb	796
@@ -1252,9 +1252,9 @@ sort: by_weight
 镚	bèng;jo	334
 甏	bèng;uw	270
 祊	bēng;pf	244
-繃	běng;yo	238
+绷	běng;so	238
 琫	běng;wl	234
-绷	běng;so	175
+綳	běng;yo	175
 絣	bēng;yk	164
 埄	běng;tf	159
 琣	běng;wk	154
@@ -1269,6 +1269,7 @@ sort: by_weight
 閍	bēng;mf	68
 鏰	bèng;jo	60
 嵭	bēng;ef	38
+繃	běng;yo	30
 痭	bēng;bo	23
 䨻	bèng;yt	1
 鞛	běng;gk	1
@@ -1279,7 +1280,6 @@ sort: by_weight
 揼	bèng;fu	1
 甮	béng;wy	1
 綳	bèng;yo	1
-綳	běng;yo	1
 繃	bèng;yo	1
 繃	bēng;yo	1
 跰	bèng;zk	1
@@ -3971,7 +3971,7 @@ sort: by_weight
 𪕁	chén;jj	1
 𫝕	chén;in	1
 𬘭	chēn;sm	1
-𠱸	chén;ki	1
+𠱸	chén;	1
 成	chéng;wv	862
 程	chéng;hw	808
 城	chéng;ti	791
@@ -4184,7 +4184,7 @@ sort: by_weight
 𫄺	chéng;fw	1
 𫔘	chēng;ml	1
 𬲜	chēng;ry	1
-𦉘	chēng;fy	1
+𦉘	chēng;	1
 吃	chī;kq	871
 持	chí;fc	803
 池	chí;dy	688
@@ -6029,7 +6029,7 @@ sort: by_weight
 𪒙	cuō;hy	1
 𪘓	cuó;rk	1
 棤	cuò;mo	1
-𢵄	cuò;fo	1
+𢵄	cuò;	1
 打	dǎ;fd	904
 大	dà;un	800
 达	dá;zd	788
@@ -6737,7 +6737,7 @@ sort: by_weight
 𤷙	dé;bc	1
 𧊇	dé;ri	1
 𨁽	dé;zc	1
-𢱕	dé;fe	1
+𢱕	dé;	1
 得	děi;ic	614
 嘚	dēi;kc	1
 䮻	děi;mc	1
@@ -7231,7 +7231,7 @@ sort: by_weight
 𪓼	diān;wv	1
 𪖚	diān;zk	1
 𫁥	diàn;lk	1
-𣵦	diàn;dt	1
+𣵦	diàn;	1
 掉	diào;fu	758
 调	diào;yk	743
 雕	diāo;kf	633
@@ -8153,7 +8153,7 @@ sort: by_weight
 𪌤	duī;lk	1
 𪒛	duì;hu	1
 𪒡	duì;hz	1
-𩛍	duī;rk	1
+𩛍	duī;	1
 顿	dùn;tr	700
 盾	dùn;po	648
 吨	dūn;kt	640
@@ -9643,7 +9643,7 @@ sort: by_weight
 𨛔	fǒu;be	1
 𩂆	fǒu;yb	1
 𫒘	fǒu;jf	1
-𠳝	fǒu;kk	1
+𠳝	fǒu;	1
 服	fú;oy	811
 复	fù;pw	780
 府	fǔ;gc	748
@@ -10189,7 +10189,7 @@ sort: by_weight
 𫙉	fǔ;gx	1
 𫝊	fù;rc	1
 𫞶	fǔ;ph	1
-𫛡	fú;fn	1
+𫛡	fú;	1
 尬	gà;ul,yl	607
 咖	gā;kk	598
 噶	gá;kv	571
@@ -10627,9 +10627,9 @@ sort: by_weight
 嗝	gé;kl	474
 膈	gé;ol	447
 镉	gé;jl	431
-韐	gé;vk	430
+舸	gě;vk	430
 个	gě;rl	411
-舸	gě;vk	407
+韐	gé;vk	408
 嗰	gě;kk	387
 硌	gè;uk	386
 箇	gè;vk	373
@@ -12947,7 +12947,7 @@ sort: by_weight
 𪠁	hé;re	1
 𪡛	hé;kk	1
 𪱳	hé;mk	1
-𠺪	hě;km	1
+𠺪	hě;	1
 黑	hēi;lh	755
 嘿	hēi;kh	633
 黒	hēi;lh	453
@@ -14930,6 +14930,7 @@ sort: by_weight
 機	jī;md	485
 伎	jì;ry	484
 荠	jì;cl	480
+讥	jī;yj	477
 期	jī;qo	476
 畿	jī;yt	474
 蓟	jì;cd	471
@@ -14938,7 +14939,6 @@ sort: by_weight
 計	jì;wu	461
 雞	jī;pf	457
 骥	jì;mb	457
-讥	jī;yj	457
 稷	jì;hw	455
 岌	jí;ej	453
 箕	jī;vb	452
@@ -15606,7 +15606,7 @@ sort: by_weight
 𫞴	jì;xx	1
 㴔	jí;dx	1
 嵴	jí;eo	1
-𠽤	jī;kg	1
+𠽤	jī;	1
 𱉼	jī;	1
 加	jiā;lk	898
 家	jiā;bu	871
@@ -18074,7 +18074,7 @@ sort: by_weight
 𫈹	jú;ci	1
 俱	jū;rb	1
 锔	jú;jk	1
-𢤹	jù;jx	1
+𢤹	jù;	1
 卷	juǎn;jv	689
 卷	juàn;jv	633
 捐	juān;fo	621
@@ -19054,7 +19054,7 @@ sort: by_weight
 𪽇	kē;tj	1
 𫟭	kè;be	1
 颏	ké;wr	1
-𡲢	kē;uk	1
+𡲢	kē;	1
 剋	kēi;ud	1
 尅	kēi;uc	1
 肯	kěn;vo	715
@@ -20113,7 +20113,7 @@ sort: by_weight
 𫏌	lái;zl	1
 𫓳	lǎi;jv	1
 𫝫	lái;nl	1
-𪮶	lài;fr	1
+𪮶	lài;	1
 蓝	lán;cm	744
 兰	lán;bs	705
 览	lǎn;le	678
@@ -20843,6 +20843,7 @@ sort: by_weight
 貍	lí;vl	306
 暦	lì;io	305
 詈	lì;sk	304
+蜊	lì;id	295
 疬	lì;bl	287
 呖	lì;kl	286
 黧	lí;hh	285
@@ -20982,6 +20983,7 @@ sort: by_weight
 鯬	lí;ha	23
 孋	lí;nb	23
 爄	lì;hy	23
+蜊	lí;id	17
 廲	lí;gb	1
 糲	lì;my	1
 𫁡	lì;ln	1
@@ -21032,7 +21034,6 @@ sort: by_weight
 砬	lì;ul	1
 纅	lì;ym	1
 纚	lǐ;yb	1
-蜊	lì;id	1
 蟸	lí;ui	1
 迣	lì;zu	1
 銐	lì;dj	1
@@ -21383,11 +21384,10 @@ sort: by_weight
 𫟫	lì;ie	1
 𫵷	lì;el	1
 𭀖	lí;wd	1
-蜊	lí;id	1
 蠡	lí;vi	1
-𢃇	lǐ;jl	1
-𥅈	lì;ol	1
-𫄫	lì;sq	1
+𢃇	lǐ;	1
+𥅈	lì;	1
+𫄫	lì;	1
 俩	liǎ;rl	637
 倆	liǎ;rr	334
 连	lián;zi	766
@@ -21983,7 +21983,7 @@ sort: by_weight
 𩭌	liè;aj	1
 𩼭	liè;ea	1
 峛	liè;ed	1
-𫄫	liè;sq	1
+𫄫	liè;	1
 林	lín;mm	763
 临	lín;la	720
 邻	lín;re	642
@@ -22564,8 +22564,8 @@ sort: by_weight
 𪕚	liú;ja	1
 𫞉	liǔ;ml	1
 镏	liù;jt	1
-𠮩	liū;kl	1
-𤠑	liú;qt	1
+𠮩	liū;	1
+𤠑	liú;	1
 咯	lo;kk	812
 龙	lóng;ud	745
 隆	lóng;eu	667
@@ -24312,7 +24312,7 @@ sort: by_weight
 𪎭	méi;gu	1
 𪾛	mèi;dm	1
 𫟈	měi;bp	1
-𦳀	mèi;cw	1
+𦳀	mèi;	1
 们	men;rm	861
 门	mén;dv	798
 闷	mèn;mx	624
@@ -25737,7 +25737,7 @@ sort: by_weight
 𪌅	nà;ln	1
 𪐀	nǎ;hx	1
 𪗝	nà;vn	1
-𠸎	nā;ku	1
+𠸎	nā;	1
 奶	nǎi;nn	723
 耐	nài;ec	673
 奈	nài;dx	652
@@ -28261,7 +28261,7 @@ sort: by_weight
 𪕒	píng;jk	1
 𪥈	píng;dp	1
 𪾘	píng;jm	1
-𠹶	pīng;kp	1
+𠹶	pīng;	1
 破	pò;uy	737
 婆	pó;dn	681
 坡	pō;ty	663
@@ -29103,7 +29103,7 @@ sort: by_weight
 𪦧	qí;nl,ny	1
 𫅆	qī;kn	1
 𬨂	qí;iu	1
-𠺪	qì;km	1
+𠺪	qì;	1
 恰	qià;xk	643
 洽	qià;dk	551
 卡	qiǎ;ub	545
@@ -29502,7 +29502,7 @@ sort: by_weight
 𫑍	qiǎn;zw	1
 𫝐	qián;bd	1
 靬	qián;gg	1
-𩝡	qiǎn;rk	1
+𩝡	qiǎn;	1
 强	qiáng;gi	874
 枪	qiāng;mv	676
 抢	qiǎng;fv	676
@@ -30104,7 +30104,7 @@ sort: by_weight
 𪙟	qǐn;va	1
 𪧭	qīn;bj	1
 梣	qín;mv	1
-𢫏	qīn;fe	1
+𢫏	qīn;	1
 请	qǐng;yo	864
 情	qíng;xo	791
 清	qīng;do	790
@@ -30501,7 +30501,7 @@ sort: by_weight
 𪓰	qiū;bv	1
 𪖛	qiù;zq	1
 𫠑	qiū;ay	1
-𫚧	qiú;ao	1
+𫚧	qiú;	1
 去	qù;ts	893
 区	qū;kx	825
 取	qǔ;ey	785
@@ -31323,7 +31323,7 @@ sort: by_weight
 𩵕	rèn;ad,ar	1
 𪔺	rèn;jr	1
 葚	rèn;cv	1
-𣏴	rén;me	1
+𣏴	rén;	1
 仍	réng;rn	714
 扔	rēng;fn	607
 礽	réng;pn	341
@@ -33225,7 +33225,6 @@ sort: by_weight
 驶	shǐ;mu	701
 湿	shī;dy	672
 氏	shì;pv	670
-似	shì;rr	652
 尸	shī;vp	621
 狮	shī;qj	619
 逝	shì;zj	616
@@ -33249,6 +33248,7 @@ sort: by_weight
 師	shī;pj	458
 適	shì;zk	457
 恃	shì;xc	453
+似	shì;rr	452
 虱	shī;vi	451
 弑	shì;xg	444
 識	shí;wo	443
@@ -35384,7 +35384,7 @@ sort: by_weight
 𪐝	tài;hd	1
 𪐥	tài;ht	1
 𪒴	tái;ht	1
-𧘹	tāi;pt	1
+𧘹	tāi;	1
 谈	tán;yh	722
 探	tàn;fm	706
 坦	tǎn;ta	679
@@ -38827,7 +38827,7 @@ sort: by_weight
 𪶮	wū;dx	1
 𫊣	wú;ha	1
 𫝀	wǔ;va	1
-𭴊	wú;hw	1
+𭴊	wú;	1
 系	xì;px	819
 习	xí;vd	803
 喜	xǐ;uk	800
@@ -39450,7 +39450,7 @@ sort: by_weight
 𫘬	xí;md	1
 𫠃	xí;ey	1
 咥	xì;kt	1
-𥱊	xí;vj	1
+𥱊	xí;	1
 下	xià;ab	870
 夏	xià;aw	717
 虾	xiā;ix	680
@@ -40276,7 +40276,7 @@ sort: by_weight
 𩡠	xiāng;ho	1
 𩾬	xiáng;ng	1
 𪂼	xiāng;mn	1
-𣚺	xiàng;mm	1
+𣚺	xiàng;	1
 小	xiǎo;ld	858
 效	xiào;ww	787
 消	xiāo;do	775
@@ -44523,8 +44523,8 @@ sort: by_weight
 𫟌	yì;cb	1
 𰁜	yì;ld	1
 踦	yǐ;zk	1
-𡃀	yì;ky	1
-𢯎	yī;fo	1
+𡃀	yì;	1
+𢯎	yī;	1
 因	yīn;kd	835
 音	yīn;lo	785
 引	yǐn;gl	770
@@ -49898,6 +49898,7 @@ sort: by_weight
 篹	zhuàn;vv	82
 灷	zhuàn;hc	82
 腞	zhuàn;ou	75
+傳	zhuàn;rc	70
 蒃	zhuàn;cu	68
 瑼	zhuān;wc	68
 䏝	zhuān;ov	1
@@ -49906,7 +49907,6 @@ sort: by_weight
 諯	zhuān;we	1
 鄟	zhuān;ae	1
 𫍱	zhuān;ye	1
-傳	zhuàn;rc	1
 僝	zhuàn;rz	1
 剸	zhuàn;ad	1
 剸	zhuān;ad	1
@@ -50085,7 +50085,7 @@ sort: by_weight
 𩬳	zhuǐ;ar	1
 𪋇	zhuī;gf	1
 𪠰	zhuì;yd	1
-𩺬	zhuī;az	1
+𩺬	zhuī;	1
 准	zhǔn;df	785
 準	zhǔn;du	432
 谆	zhūn;yz	419
