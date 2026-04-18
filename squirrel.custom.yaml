@@ -1,0 +1,84 @@
+# encoding: utf-8
+# https://github.com/rime/squirrel/blob/master/data/squirrel.yaml
+
+patch:
+
+  app_options:
+    io.kovidgoyal.kitty:
+      vim_mode: true
+    dev.zed.Zed:
+      vim_mode: true
+    dev.zed.Zed-Preview:
+      vim_mode: true
+    com.apple.Terminal:
+      vim_mode: true
+    com.jetbrains.intellij:
+      vim_mode: true
+    com.runningwithcrayons.Alfred:
+      vim_mode: true
+  
+  style/color_scheme: mint_light_blue
+  style/color_scheme_dark: mint_dark_blue
+
+  style/text_orient: horizontal
+  style/candidate_list_layout: linear
+
+  style/font_face: "SF Pro, PingFang SC"
+  style/font_point: 14
+  style/label_font_face: "SF Pro, PingFang SC"
+  style/label_font_point: 10
+  style/comment_font_face: "SF Pro, PingFang SC"
+  style/comment_font_point: 14
+
+  style/corner_radius: 8
+  style/border_height: -4
+  style/border_width: -4
+  style/inline_candidate: false
+  style/candidate_format: "%c\u2005%@\u2005"
+
+  preset_color_schemes:
+    # 亮色模式
+    mint_light_blue:
+      name: "蓝水鸭／Mint Light Blue"
+      author: Mintimate <"Mintimate's Blog">
+      translucency: false                      # 磨砂： false | true
+      mutual_exclusive: false                 # 色不叠加： false | true
+      shadow_size: 12                          # 阴影大小
+      line_spacing: 5                         # 行间距
+      base_offset: 0                          # 字基高
+      alpha: 1                                # 透明度，0~1
+      spacing: 10                             # 拼音与候选项之间的距离 （inline_preedit: false）
+      back_color: 0xffffff                    # 底色
+      hilited_candidate_back_color: 0xd05825  # 选中底色
+      label_color: 0xcac9c8                   # 序号颜色
+      hilited_candidate_label_color: 0xffffff # 选中序号颜色
+      candidate_text_color: 0x424242          # 文字颜色
+      hilited_candidate_text_color: 0xffffff  # 选中文字颜色
+      comment_text_color: 0xcac9c8            # 注颜色
+      hilited_comment_text_color: 0xffffff    # 选中注颜色
+      text_color: 0x6495ed                    # 拼音颜色 （inline_preedit: false）
+      hilited_text_color: 0xd05825            # 选中拼音颜色 （inline_preedit: false）
+      color_space: display_p3
+
+    # 暗色模式
+    mint_dark_blue:
+      name: "黑水鸭／Mint Dark Blue"
+      author: Mintimate <"Mintimate's Blog">
+      translucency: false                      # 磨砂： false | true
+      mutual_exclusive: false                 # 色不叠加： false | true
+      shadow_size: 12                         # 阴影大小
+      line_spacing: 5                         # 行间距
+      base_offset: 0                          # 字基高
+      alpha: 1                                # 透明度，0~1
+      spacing: 10                             # 拼音与候选项之间的距离 （inline_preedit: false）
+      back_color: 0x1d1d1d                    # 底色
+      hilited_candidate_back_color: 0xf67834  # 选中底色
+      label_color: 0xca9c8                   # 序号颜色
+      hilited_candidate_label_color: 0xffffff # 选中序号颜色
+      candidate_text_color: 0xffffff          # 文字颜色
+      hilited_candidate_text_color: 0xffffff  # 选中文字颜色
+      comment_text_color: 0xca9c8            # 注颜色
+      hilited_comment_text_color: 0xffffff    # 选中注颜色
+      text_color: 0x6495ed                    # 拼音颜色 （inline_preedit: false）
+      hilited_text_color: 0xc6c01a            # 选中拼音颜色 （inline_preedit: false）
+      color_space: display_p3

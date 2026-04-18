@@ -1,0 +1,16 @@
+# encoding: utf-8
+# Squirrel custom configuration file
+
+patch:
+
+  menu/page_size: 6
+
+  # 双拼不要展开提示在候选区域
+  translator/preedit_format: []
+
+  # 让 Caps Lock 和 Shift 与 macOS 更相似
+  ascii_composer/good_old_caps_lock: false
+  ascii_composer/switch_key/Shift_L: noop
+  ascii_composer/switch_key/Shift_R: noop
+  ascii_composer/switch_key/Caps_Lock: commit_code
+
