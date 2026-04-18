@@ -8891,10 +8891,10 @@ sort: by_weight
 翻	fān;px	733
 犯	fàn;qv	692
 泛	fàn;df	688
-樊	fán;md	684
-烦	fán;hr	682
+烦	fán;hr	684
+凡	fán;jd	680
+樊	fán;md	678
 繁	fán;px	675
-凡	fán;jd	665
 番	fān;pt	663
 帆	fān;jf	592
 贩	fàn;ky	592
@@ -33078,6 +33078,7 @@ sort: by_weight
 圣	shèng;yt	652
 盛	shèng;im	633
 剩	shèng;qd	621
+晟	shèng;oi	610
 绳	shéng;sd	605
 牲	shēng;nu	592
 笙	shēng;vu	502
@@ -33127,7 +33128,6 @@ sort: by_weight
 㾪	shěng;bo	1
 乗	shèng;pn	1
 娍	shèng;ni	1
-晟	shèng;oi	1
 椉	shèng;wm	1
 殸	shēng;uy	1
 渑	shéng;dd	1
@@ -34396,6 +34396,8 @@ sort: by_weight
 淞	sōng;ds	471
 凇	sōng;ds	402
 崧	sōng;es	400
+𪨊	sóng;ur	400
+㞞	sóng;ur	391
 鬆	sōng;as	387
 菘	sōng;cs	368
 忪	sōng;xs	362
@@ -34424,11 +34426,9 @@ sort: by_weight
 憽	sōng;xx	50
 梥	sōng;bm	23
 庺	sōng;gm	23
-㞞	sóng;ur	1
 𧊕	sōng;iu	1
 𩠌	sòng;uz	1
 㧐	sǒng;fy	1
-𪨊	sóng;ur	1
 㩳	sǒng;fy	1
 𡾼	sǒng;ey	1
 吅	sòng;kk	1
@@ -37753,14 +37753,14 @@ sort: by_weight
 纬	wěi;sw	570
 惟	wéi;xf	562
 萎	wěi;cn	557
-為	wèi;vh	556
+渭	wèi;do	556
 尉	wèi;uc	550
 蔚	wèi;cc	545
 帷	wéi;jf	526
 巍	wēi;eg	524
 玮	wěi;ww	522
 猥	wěi;qn	518
-渭	wèi;do	516
+爲	wèi;ph	516
 潍	wéi;df	509
 炜	wěi;hw	495
 苇	wěi;cw	495
@@ -37770,7 +37770,7 @@ sort: by_weight
 煨	wēi;hn	467
 衛	wèi;ii	463
 圩	wéi;ty	460
-爲	wèi;ph	456
+為	wèi;vh	456
 桅	wéi;mv	442
 偎	wēi;rn	440
 诿	wěi;yn	425

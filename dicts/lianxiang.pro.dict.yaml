@@ -1032,7 +1032,7 @@ sort: by_weight
 安装与调试	ān;bn zhuāng;dy yǔ;aa tiáo;yk shì;yg	1
 安装与维护	ān;bn zhuāng;dy yǔ;aa wéi;sf hù;fh	1
 安装与维修	ān;bn zhuāng;dy yǔ;aa wéi;sf xiū;rp	1
-安装与卸载	ān;bn zhuāng;dy yǔ;aa xiè;we,pe zǎi;ui	1
+安装与卸载	ān;bn zhuāng;dy yǔ;aa xiè;we,pe zài;ui	1
 昂代洛条约	áng;oe dài;ry luò;dk tiáo;wm yuē;su	1
 昂丹司琼片	áng;oe dān;pa sī;vk qióng;wx piàn;pv	1
 盎格鲁大道	àng;ym gé;mk lǔ;ao dà;un dào;zz	1
@@ -11999,7 +11999,7 @@ sort: by_weight
 打个稀巴烂	dǎ;fd gè;rl xī;hj bā;vv,sl làn;hs	1
 打个小盹儿	dǎ;fd gè;rl xiǎo;ld dǔn;ot er;pv	1
 打个预防针	dǎ;fd gè;rl yù;sr fáng;ef zhēn;ju	1
-打个招呼吧	dǎ;fd gè;rl zhāo;fk hū;kh ba;kb	1
+打个招呼吧	dǎ;fd gè;rl zhāo;fk hu;kh ba;kb	1
 大根香叶烷	dà;un gēn;mg xiāng;ho yè;ku wán;he	5
 大功率电机	dà;un gōng;gl lǜ;wu diàn;lv jī;mj	1
 打狗看主人	dǎ;fd gǒu;qk kàn;uo zhǔ;dw rén;pn	1
@@ -12017,7 +12017,7 @@ sort: by_weight
 打过的电话	dǎ;fd guò;zc de;bu diàn;lv huà;yk	1
 打过电话来	dǎ;fd guò;zc diàn;lv huà;yk lái;an	1
 大过滤理论	dà;un guò;zc lǜ;dx lǐ;wl lùn;yb	1
-打过招呼后	dǎ;fd guò;zc zhāo;fk hū;kh hòu;pk	1
+打过招呼后	dǎ;fd guò;zc zhāo;fk hu;kh hòu;pk	1
 大海的波浪	dà;un hǎi;dm de;bu bō;dy làng;dl	1
 大海的波涛	dà;un hǎi;dm de;bu bō;dy tāo;dc	1
 大海的潮汐	dà;un hǎi;dm de;bu cháo;do xī;dx	1
@@ -12190,7 +12190,7 @@ sort: by_weight
 打了个手势	dǎ;fd le;vl gè;rl shǒu;pl shì;fl	1
 打了个死结	dǎ;fd le;vl gè;rl sǐ;db jié;sk	1
 打了个响指	dǎ;fd le;vl gè;rl xiǎng;kk zhǐ;fo	1
-打了声招呼	dǎ;fd le;vl shēng;up zhāo;fk hū;kh	1
+打了声招呼	dǎ;fd le;vl shēng;up zhāo;fk hu;kh	1
 搭了顺风车	dā;fk le;vl shùn;ir fēng;jx chē;al	1
 打雷的时候	dǎ;fd léi;yt de;bu shí;oc hou;ru	1
 打雷要下雨	dǎ;fd léi;yt yào;xn xià;ab yǔ;ad	1
@@ -14785,6 +14785,7 @@ sort: by_weight
 第三者介入	dì;vp sān;ae zhě;lo jiè;rl rù;pn	1
 第三枕神经	dì;vp sān;ae zhěn;mv shén;pu jīng;sg	1
 第三指缝线	dì;vp sān;ae zhǐ;fo féng;sz xiàn;sj	1
+第三只眼看	dì;vp sān;ae zhī;kb yǎn;og kàn;uo	1
 第三种绝色	dì;vp sān;ae zhǒng;hv jué;sb sè;db	1
 蒂森克虏伯	dì;cj sēn;mm kè;ue lǔ;hl bó;rb	1
 地上的血迹	dì;ty shàng;la de;bu xuè;pm jì;zd	1
@@ -20447,18 +20448,17 @@ sort: by_weight
 仿真棕榈树	fǎng;rf zhēn;ub zōng;mx lǘ;mk shù;mc	1
 方正兰亭黑	fāng;dw zhèng;av lán;bs tíng;wd hēi;lh	1
 方正小标宋	fāng;dw zhèng;av xiǎo;ld biāo;mx sòng;bm	1
-防治艾滋病	fáng;ef zhì;dk ài;cx zī;dy bìng;bb	1
+防治艾滋病	fáng;ef zhì;dk ài;cx zī;dy bìng;bb	2
 防止艾滋病	fáng;ef zhǐ;la ài;cx zī;dy bìng;bb	1
 防芷鼻炎片	fáng;ef zhǐ;cv bí;zl yán;hh piàn;pv	1
 防治病虫害	fáng;ef zhì;dk bìng;bb chóng;vd hài;bk	1
 防止病虫害	fáng;ef zhǐ;la bìng;bb chóng;vd hài;bk	1
+防止并发症	fáng;ef zhǐ;la bìng;bk fā;vd zhèng;bv	2
 防治并发症	fáng;ef zhì;dk bìng;bk fā;vd zhèng;bv	1
-防止并发症	fáng;ef zhǐ;la bìng;bk fā;vd zhèng;bv	1
 纺织博物馆	fǎng;sf zhī;sb bó;uc wù;nw guǎn;uk	1
 纺织产业链	fǎng;sf zhī;sb chǎn;wi,lp yè;la liàn;jz	1
 纺织产业园	fǎng;sf zhī;sb chǎn;wi,lp yè;la yuán;ke	1
 方志出版社	fāng;dw zhì;ux chū;vk bǎn;py shè;pt	1
-方智出版社	fāng;dw zhì;uo chū;vk bǎn;py shè;pt	1
 纺织出版社	fǎng;sf zhī;sb chū;vk bǎn;py shè;pt	1
 防治传染病	fáng;ef zhì;dk chuán;rv rǎn;dm bìng;bb	1
 放置的位置	fàng;fw zhì;sq de;bu wèi;rl zhì;sq	1
@@ -23974,7 +23974,7 @@ sort: by_weight
 干涸的土地	gān;au hé;dk de;bu tǔ;ua dì;ty	1
 干涸的心田	gān;au hé;dk de;bu xīn;dd tián;ku	1
 甘河林业局	gān;na hé;dk lín;mm yè;la jú;uk	1
-干河子林场	gàn;au hé;dk zǐ;va lín;mm chǎng;tp	1
+干河子林场	gān;au hé;dk zǐ;va lín;mm chǎng;tp	1
 疳后天柱倒	gān;bg hòu;pk tiān;ad zhù;mv dào;rd	1
 干骺续连症	gàn;au hóu;gk xù;sd lián;zi zhèng;bv	1
 感化节度使	gǎn;xx huà;rb jié;ce dù;gy shǐ;rl	1
@@ -24069,9 +24069,9 @@ sort: by_weight
 橄榄晶冲剂	gǎn;mw lǎn;me jīng;oo chōng;dv jì;wd	1
 橄榄晶颗粒	gǎn;mw lǎn;me jīng;oo kē;gr lì;ml	1
 橄榄球协会	gǎn;mw lǎn;me qiú;wq xié;ub huì;rs	1
-干阑式建筑	gàn;au lán;mj shì;yg jiàn;zy zhù;vf	1
-干栏式建筑	gàn;au lán;ms shì;yg jiàn;zy zhù;vf	1
-干栏式民居	gàn;au lán;ms shì;yg mín;vv jū;uk	1
+干阑式建筑	gān;au lán;mj shì;yg jiàn;zy zhù;vf	1
+干栏式建筑	gān;au lán;ms shì;yg jiàn;zy zhù;vf	1
+干栏式民居	gān;au lán;ms shì;yg mín;vv jū;uk	1
 橄榄透辉岩	gǎn;mw lǎn;me tòu;zn huī;xi yán;eu	1
 甘蓝型油菜	gān;na lán;cm xíng;kt yóu;dy cài;cm	1
 橄榄玄粗岩	gǎn;mw lǎn;me xuán;wy cū;mq yán;eu	1
@@ -24286,16 +24286,16 @@ sort: by_weight
 感性的一面	gǎn;xx xìng;xu de;bu yí;aa miàn;aa	1
 感性和理性	gǎn;xx xìng;xu hé;hk lǐ;wl xìng;xu	1
 肝性脊髓病	gān;og xìng;xu jǐ;do suǐ;gz bìng;bb	1
-干性脚气病	gàn;au xìng;xu jiǎo;oe qì;pv bìng;bb	1
+干性脚气病	gān;au xìng;xu jiǎo;oe qì;pv bìng;bb	1
 肝性脑病变	gān;og xìng;xu nǎo;ok bìng;bb biàn;wy	1
-干性皮膜油	gàn;au xìng;xu pí;vy mó;od yóu;dy	1
-干性皮脂溢	gàn;au xìng;xu pí;vy zhī;oo yì;dm	1
+干性皮膜油	gān;au xìng;xu pí;vy mó;od yóu;dy	1
+干性皮脂溢	gān;au xìng;xu pí;vy zhī;oo yì;dm	1
 感兴趣程度	gǎn;xx xìng;xb qù;ty chéng;hw dù;gy	1
 感兴趣的点	gǎn;xx xìng;xb qù;ty de;bu diǎn;lh	1
 感兴趣的是	gǎn;xx xìng;xb qù;ty de;bu shì;or	1
 感兴趣的事	gǎn;xx xìng;xb qù;ty de;bu shì;al	1
 肝性糖尿病	gān;og xìng;xu táng;mk niào;uu bìng;bb	1
-干性胸膜炎	gàn;au xìng;xu xiōng;ok mó;od yán;hh	1
+干性胸膜炎	gān;au xìng;xu xiōng;ok mó;od yán;hh	1
 感性与理性	gǎn;xx xìng;xu yǔ;aa lǐ;wl xìng;xu	1
 肝血不足证	gān;og xuè;pm bù;ad zú;kr zhèng;yv	1
 肝血池显像	gān;og xuè;pm chí;dy xiǎn;oy xiàng;rn	1
@@ -24370,10 +24370,10 @@ sort: by_weight
 感知并回应	gǎn;xx zhī;uk bìng;bk huí;kk yìng;ga	1
 苷脂沉积病	gān;cg zhī;oo chén;dj jī;hb bìng;bb	1
 苷脂沉积症	gān;cg zhī;oo chén;dj jī;hb zhèng;bv	1
-干支纪年法	gàn;au zhī;uy jì;sj nián;pl fǎ;ds	1
-干支纪日法	gàn;au zhī;uy jì;sj rì;ka fǎ;ds	1
-干支纪元法	gàn;au zhī;uy jì;sj yuán;ee fǎ;ds	1
-干支纪月法	gàn;au zhī;uy jì;sj yuè;ka fǎ;ds	1
+干支纪年法	gān;au zhī;uy jì;sj nián;pl fǎ;ds	1
+干支纪日法	gān;au zhī;uy jì;sj rì;ka fǎ;ds	1
+干支纪元法	gān;au zhī;uy jì;sj yuán;ee fǎ;ds	1
+干支纪月法	gān;au zhī;uy jì;sj yuè;ka fǎ;ds	1
 肝中间静脉	gān;og zhōng;ll jiān;mo jìng;fl mài;oy	1
 甘州回鹘国	gān;na zhōu;dl huí;kk hú;gn guó;ky	1
 甘珠尔扎布	gān;na zhū;wv ěr;dx zhā;fv bù;uj	1
@@ -33857,7 +33857,7 @@ sort: by_weight
 会是什么样	huì;rs shì;or shén;ru me;ps yàng;my	1
 惠氏营养品	huì;ax shì;pv yíng;ck yǎng;yl pǐn;kk	1
 会是怎么样	huì;rs shì;or zěn;vx me;ps yàng;my	1
-挥手打招呼	huī;fi shǒu;pl dǎ;fd zhāo;fk hū;kh	1
+挥手打招呼	huī;fi shǒu;pl dǎ;fd zhāo;fk hu;kh	1
 回收的材料	huí;kk shōu;vw de;bu cái;mc liào;mu	1
 回首来时路	huí;kk shǒu;bz lái;an shí;oc lù;zk	1
 挥手说再见	huī;fi shǒu;pl shuō;ye zài;ar jiàn;ke	1
@@ -52951,7 +52951,7 @@ sort: by_weight
 磨灭的记忆	mó;gu miè;ah de;bu jì;yj yì;xv	1
 默默地承受	mò;hq mò;hq de;ty chéng;vn shòu;py	1
 默默地等待	mò;hq mò;hq de;ty děng;vc dài;ic	1
-嬷嬷的法法	mó;nm mó;nm de;bu fǎ;ds fǎ;ds	1
+嬷嬷的法法	mó;nm mo;nm de;bu fǎ;ds fǎ;ds	1
 默默地付出	mò;hq mò;hq de;ty fù;rc chū;vk	1
 默默的关注	mò;hq mò;hq de;bu guān;bt zhù;dv	1
 默默地关注	mò;hq mò;hq de;ty guān;bt zhù;dv	1
@@ -53398,6 +53398,7 @@ sort: by_weight
 那打素医院	nà;ve dǎ;fd sù;fx yī;ku yuàn;ee	1
 那档子事儿	nà;ve dàng;me zi;va shì;al er;pv	1
 那倒不一定	nà;ve dào;rd bù;ad yí;aa dìng;br	1
+那倒不至于	nà;ve dào;rd bù;ad zhì;at yú;al	1
 拿到驾照后	ná;ru dào;ad jià;lm zhào;oh hòu;pk	1
 拿到试卷后	ná;ru dào;ad shì;yg juàn;jv hòu;pk	1
 拿到手机后	ná;ru dào;ad shǒu;pl jī;mj hòu;pk	1
@@ -58281,7 +58282,7 @@ sort: by_weight
 企业及个人	qǐ;rv yè;la jí;pn gè;rl rén;pn	1
 企业界人士	qǐ;rv yè;la jiè;tl rén;pn shì;ua	1
 气液两相流	qì;pv yè;dn liǎng;ad xiāng;mo liú;dv	1
-企业内连网	qǐ;rv yè;la nèi;ld lián;zi wǎng;kx	1
+企业内联网	qǐ;rv yè;la nèi;ld lián;et wǎng;kx	1
 气液色谱法	qì;pv yè;dn sè;db pǔ;yo fǎ;ds	1
 企业商业展	qǐ;rv yè;la shāng;wk yè;la zhǎn;un	1
 七叶神安片	qī;av yè;ku shén;pu ān;bn piàn;pv	1
@@ -61570,7 +61571,6 @@ sort: by_weight
 全球的视野	quán;rw qiú;wq de;bu shì;pe yě;ll	1
 全球的疫情	quán;rw qiú;wq de;bu yì;by qíng;xo	1
 全球第一台	quán;rw qiú;wq dì;vp yī;aa tái;sk	1
-全球互连网	quán;rw qiú;wq hù;aa lián;zi wǎng;kx	1
 全球互联网	quán;rw qiú;wq hù;aa lián;et wǎng;kx	1
 全球化程度	quán;rw qiú;wq huà;rb chéng;hw dù;gy	1
 全球化视野	quán;rw qiú;wq huà;rb shì;pe yě;ll	1
@@ -62079,8 +62079,8 @@ sort: by_weight
 热膨胀系数	rè;fh péng;op zhàng;oi xì;px shù;mw	1
 热迫膀胱证	rè;fh pò;zb páng;of guāng;ow zhèng;yv	1
 热气腾腾的	rè;fh qì;pv téng;om téng;om de;bu	1
-热情的招呼	rè;fh qíng;xo de;bu zhāo;fk hū;kh	1
-热情地招呼	rè;fh qíng;xo de;ty zhāo;fk hū;kh	1
+热情的招呼	rè;fh qíng;xo de;bu zhāo;fk hu;kh	1
+热情地招呼	rè;fh qíng;xo de;ty zhāo;fk hu;kh	1
 热情和友好	rè;fh qíng;xo hé;hk yǒu;uy hǎo;nz	1
 热缺血时间	rè;fh quē;fg xuè;pm shí;oc jiān;mo	1
 热扰心神证	rè;fh rǎo;fy xīn;dd shén;pu zhèng;yv	1
@@ -65626,7 +65626,7 @@ sort: by_weight
 邵氏硬度计	shào;de shì;pv yìng;ug dù;gy jì;yu	1
 少数民族村	shǎo;xp shù;mw mín;vv zú;fu cūn;mc	1
 少数人权利	shǎo;xp shù;mw rén;pn quán;my lì;hd	1
-少帅张学良	shǎo;xp shuài;lj zhāng;gi xué;xz liáng;dg	1
+少帅张学良	shào;xp shuài;lj zhāng;gi xué;xz liáng;dg	1
 少说多做的	shǎo;xp shuō;ye duō;xx zuò;rw de;bu	1
 少谈些主义	shǎo;xp tán;yh xiē;ve zhǔ;dw yì;dx	1
 烧烫烫的爱	shāo;hw tàng;dh tàng;dh de;bu ài;py	1
@@ -66133,7 +66133,7 @@ sort: by_weight
 神产巢日神	shén;pu chǎn;wi,lp cháo;vg rì;ka shén;pu	1
 肾充盈缺损	shèn;lo chōng;we yíng;nm quē;fg sǔn;fr	1
 伸出大拇指	shēn;ru chū;vk dà;un mǔ;fm zhǐ;fo	1
-身处的环境	shēn;pp chù;wb de;bu huán;wb jìng;te	1
+身处的环境	shēn;pp chǔ;wb de;bu huán;wb jìng;te	1
 深处的秘密	shēn;dm chù;wb de;bu mì;hb mì;be	1
 伸出橄榄枝	shēn;ru chū;vk gǎn;mw lǎn;me zhī;my	1
 伸出了援手	shēn;ru chū;vk le;vl yuán;fy shǒu;pl	1
@@ -77260,7 +77260,7 @@ sort: by_weight
 兔大满科技	tù;dd dà;un mǎn;dl kē;hu jì;fy	1
 土旦小克兄	tǔ;ua dàn;oa xiǎo;ld kè;ue xiōng;ke	1
 菟道稚郎子	tú;cd dào;zz zhì;hf láng;de zǐ;va	1
-土的干密度	tǔ;ua de;bu gàn;au mì;be dù;gy	1
+土的干密度	tǔ;ua de;bu gān;au mì;be dù;gy	1
 钍的同位素	tǔ;jt de;bu tóng;kk wèi;rl sù;fx	1
 凸等价关系	tū;la děng;vc jià;rl guān;bt xì;px	1
 土地的变迁	tǔ;ua dì;ty de;bu biàn;wy qiān;zq	1
@@ -81380,6 +81380,7 @@ sort: by_weight
 无穷小演算	wú;ay qióng;bl xiǎo;ld yǎn;db suàn;vc	1
 无穷性公理	wú;ay qióng;bl xìng;xu gōng;bs lǐ;wl	1
 无球粒陨石	wú;ay qiú;wq lì;ml yǔn;er shí;ak	1
+无求所谓了	wú;ay qiú;ad suǒ;pj wèi;yo le;vl	1
 无趣的生活	wú;ay qù;ty de;bu shēng;pf huó;dk	1
 吾去脱他衣	wú;wk qù;ts tuō;oe tā;ry yī;wy	1
 无取向硅钢	wú;ay qǔ;ey xiàng;pk guī;ut gāng;jx	1
@@ -88584,6 +88585,7 @@ sort: by_weight
 学生的情况	xué;xz shēng;pf de;bu qíng;xo kuàng;de	1
 学生的权利	xué;xz shēng;pf de;bu quán;my lì;hd	1
 学生的人格	xué;xz shēng;pf de;bu rén;pn gé;mk	1
+学生的任务	xué;xz shēng;pf de;bu rèn;rr wù;wl	1
 学生的日子	xué;xz shēng;pf de;bu rì;ka zi;va	1
 学生的数量	xué;xz shēng;pf de;bu shù;mw liàng;ol	1
 学生的思维	xué;xz shēng;pf de;bu sī;tx wéi;sf	1
@@ -99387,7 +99389,7 @@ sort: by_weight
 赵国平原君	zhào;tx guó;ky píng;au yuán;ix jūn;yk	1
 赵邯郸故城	zhào;tx hán;ge dān;be gù;uw chéng;ti	1
 找好了下家	zhǎo;fg hǎo;nz le;vl xià;ab jiā;bu	1
-招呼都不打	zhāo;fk hū;kh dōu;le bù;ad dǎ;fd	1
+招呼都不打	zhāo;fk hu;kh dōu;le bù;ad dǎ;fd	1
 照葫芦画瓢	zhào;oh hú;co lu;ch huà;ak piáo;xg	1
 照花前后镜	zhào;oh huā;cb qián;bd hòu;pk jìng;je	1
 召唤师奖杯	zhào;dk huàn;kd shī;lj jiǎng;dd bēi;mb	1
@@ -104229,7 +104231,7 @@ sort: by_weight
 自动时尚版	zì;po dòng;el shí;oc shàng;xk bǎn;py	1
 自动售烟机	zì;po dòng;el shòu;rk yān;hd jī;mj	1
 自动送稿器	zì;po dòng;el sòng;zt gǎo;hk qì;kk	1
-自动卸载车	zì;po dòng;el xiè;we,pe zǎi;ui chē;al	1
+自动卸载车	zì;po dòng;el xiè;we,pe zài;ui chē;al	1
 自动性癫痫	zì;po dòng;el xìng;xu diān;br xián;bm	1
 自动验光仪	zì;po dòng;el yàn;ma guāng;xw yí;ry	1
 自对偶范畴	zì;po duì;yc ǒu;ry fàn;cv chóu;tc	1
@@ -113776,7 +113778,7 @@ sort: by_weight
 从此一蹶不振	cóng;rr cǐ;vb yì;aa jué;zr bú;ad zhèn;fn	1
 从此与众不同	cóng;rr cǐ;vb yǔ;aa zhòng;rr bù;ad tóng;kk	1
 从大海到大海	cóng;rr dà;un hǎi;dm dào;ad dà;un hǎi;dm	1
-从打招呼开始	cóng;rr dǎ;fd zhāo;fk hū;kh kāi;ac shǐ;nk	1
+从打招呼开始	cóng;rr dǎ;fd zhāo;fk hu;kh kāi;ac shǐ;nk	1
 丛的分裂映射	cóng;ra de;bu fēn;bd liè;dy yìng;oy shè;uc	1
 从低端到高端	cóng;rr dī;rd duān;le dào;ad gāo;wk duān;le	1
 从地球到月球	cóng;rr dì;ty qiú;wq dào;ad yuè;ka qiú;wq	1
@@ -114673,8 +114675,8 @@ sort: by_weight
 打造智慧物流	dǎ;fd zào;zk zhì;uo huì;fx wù;nw liú;dv	1
 打造智能工厂	dǎ;fd zào;zk zhì;uo néng;sb gōng;aa chǎng;ap	1
 大张皮移植术	dà;un zhāng;gi pí;vy yí;hx zhí;mq shù;md	1
-打招呼的方式	dǎ;fd zhāo;fk hū;kh de;bu fāng;dw shì;yg	1
-打招呼的关系	dǎ;fd zhāo;fk hū;kh de;bu guān;bt xì;px	1
+打招呼的方式	dǎ;fd zhāo;fk hu;kh de;bu fāng;dw shì;yg	1
+打招呼的关系	dǎ;fd zhāo;fk hu;kh de;bu guān;bt xì;px	1
 打着爱的旗号	dǎ;fd zhe;yo ài;py de;bu qí;fb hào;kv	1
 打着你的旗号	dǎ;fd zhe;yo nǐ;rx de;bu qí;fb hào;kv	1
 打着我的名义	dǎ;fd zhe;yo wǒ;pd de;bu míng;xk yì;dx	1
@@ -122253,7 +122255,7 @@ sort: by_weight
 干出这种事儿	gàn;au chū;vk zhè;zw zhǒng;hv shì;al er;pv	1
 肝穿刺活检术	gān;og chuān;by cì;ad huó;dk jiǎn;ma shù;md	1
 甘醇酸淀粉钠	gān;na chún;yz suān;yw diàn;dr fěn;md nà;jn	1
-干打雷不下雨	gàn;au dǎ;fd léi;yt bú;ad xià;ab yǔ;ad	1
+干打雷不下雨	gān;au dǎ;fd léi;yt bú;ad xià;ab yǔ;ad	1
 干大事而惜身	gàn;au dà;un shì;al ér;al xī;xo shēn;pp	1
 肝胆动态显像	gān;og dǎn;oa dòng;el tài;tx xiǎn;oy xiàng;rn	1
 肝胆管切除术	gān;og dǎn;oa guǎn;vk qiē;qd chú;eh shù;md	1
@@ -141395,7 +141397,7 @@ sort: by_weight
 面部表浅异物	miàn;aa bù;le biǎo;fy qiǎn;dj yì;sc wù;nw	1
 面部单纯糠疹	miàn;aa bù;le dān;bl chún;st kāng;mn zhěn;bp	1
 面部蜂窝织炎	miàn;aa bù;le fēng;if wō;bn zhī;sb yán;hh	1
-面部干性糠疹	miàn;aa bù;le gàn;au xìng;xu kāng;mn zhěn;bp	1
+面部干性糠疹	miàn;aa bù;le gān;au xìng;xu kāng;mn zhěn;bp	1
 面部假体耳部	miàn;aa bù;le jiǎ;ry tǐ;rb ěr;aa bù;le	1
 面部假体下额	miàn;aa bù;le jiǎ;ry tǐ;rb xià;ab é;br	1
 面部模型制备	miàn;aa bù;le mó;md xíng;kt zhì;pd bèi;wt	1
@@ -146625,6 +146627,8 @@ sort: by_weight
 球状分生孢子	qiú;wq zhuàng;dq fēn;bd shēng;pf bāo;zs zǐ;va	1
 球状关节人形	qiú;wq zhuàng;dq guān;bt jié;ce rén;pn xíng;kp	1
 球状上颌囊肿	qiú;wq zhuàng;dq shàng;la hé;rr náng;ay zhǒng;ov	1
+求最大公因数	qiú;ad zuì;oy dà;un gōng;bs yīn;kd shù;mw	1
+求最小公倍数	qiú;ad zuì;oy xiǎo;ld gōng;bs bèi;rk shù;mw	1
 去氨加压素片	qù;ts ān;qn jiā;lk yā;id sù;fx piàn;pv	1
 曲安奈德乳膏	qǔ;la ān;bn nài;dx dé;ix rǔ;pv gāo;wo	1
 曲安奈德软膏	qǔ;la ān;bn nài;dx dé;ix ruǎn;ir gāo;wo	1
@@ -151708,7 +151712,7 @@ sort: by_weight
 式毫米加农炮	shì;yg háo;wm mǐ;dm jiā;lk nóng;dn pào;hs	1
 式毫米迫击炮	shì;yg háo;wm mǐ;dm pǎi;zb jī;ak pào;hs	1
 适合大多数人	shì;zk hé;rk dà;un duō;xx shù;mw rén;pn	1
-适合干性皮肤	shì;zk hé;rk gàn;au xìng;xu pí;vy fū;of	1
+适合干性皮肤	shì;zk hé;rk gān;au xìng;xu pí;vy fū;of	1
 适合各种肤质	shì;zk hé;rk gè;wk zhǒng;hv fū;of zhì;pr	1
 是合理合法的	shì;or hé;rk lǐ;wl hé;rk fǎ;ds de;bu	1
 适合全年龄段	shì;zk hé;rk quán;rw nián;pl líng;vs duàn;py	1
@@ -155428,7 +155432,7 @@ sort: by_weight
 塔里木河流域	tǎ;tk lǐ;la mù;un,an hé;dk liú;dv yù;ta	1
 塔罗斯的法则	tǎ;tk luó;sx sī;qj de;bu fǎ;ds zé;kd	1
 她妈妈的公主	tā;ny mā;nm ma;nm de;bu gōng;bs zhǔ;dw	1
-他们打个招呼	tā;ry men;rm dǎ;fd gè;rl zhāo;fk hū;kh	1
+他们打个招呼	tā;ry men;rm dǎ;fd gè;rl zhāo;fk hu;kh	1
 它们或多或少	tā;bb men;rm huò;ga duō;xx huò;ga shǎo;xp	1
 她们家的故事	tā;ny men;rm jiā;bu de;bu gù;uw shi;al	1
 他们行色匆匆	tā;ry men;rm xíng;ii sè;db cōng;bd cōng;bd	1
@@ -159495,7 +159499,7 @@ sort: by_weight
 无论哪个季节	wú;ay lùn;yb nǎ;ke ge;rl jì;hz jié;ce	1
 无论哪种方式	wú;ay lùn;yb nǎ;ke zhǒng;hv fāng;dw shì;yg	1
 无论男女老幼	wú;ay lùn;yb nán;tl nǚ;va lǎo;lb yòu;yl	1
-无论身处何地	wú;ay lùn;yb shēn;pp chù;wb hé;rk dì;ty	1
+无论身处何地	wú;ay lùn;yb shēn;pp chǔ;wb hé;rk dì;ty	1
 无论是好是坏	wú;ay lùn;yb shì;or hǎo;nz shì;or huài;tb	1
 无论做什么事	wú;ay lùn;yb zuò;rw shén;ru me;ps shì;al	1
 武珞路丁字桥	wǔ;av luò;wk lù;zk dīng;al zì;bz qiáo;ml	1
@@ -163565,7 +163569,7 @@ sort: by_weight
 溴代异十六烷	xiù;dq dài;ry yì;sc shí;al liù;wb wán;he	3
 溴代异十三烷	xiù;dq dài;ry yì;sc shí;al sān;ae wán;he	3
 修道院的秘密	xiū;rp dào;zz yuàn;ee de;bu mì;hb mì;be	1
-修道院的嬷嬷	xiū;rp dào;zz yuàn;ee de;bu mó;nm mó;nm	1
+修道院的嬷嬷	xiū;rp dào;zz yuàn;ee de;bu mó;nm mo;nm	1
 秀逗妈妈月美	xiù;hn dòu;za mā;nm ma;nm yuè;ka měi;yd	1
 秀恩爱的方式	xiù;hn ēn;kx ài;py de;bu fāng;dw shì;yg	1
 秀恩爱死的快	xiù;hn ēn;kx ài;py sǐ;db de;bu kuài;xg	1
@@ -182282,7 +182286,6 @@ sort: by_weight
 第三十六个故事	dì;vp sān;ae shí;al liù;wb gè;rl gù;uw shi;al	1
 第三实验幼儿园	dì;vp sān;ae shí;bd yàn;ma yòu;yl ér;pv yuán;ke	1
 第三者的第三者	dì;vp sān;ae zhě;lo de;bu dì;vp sān;ae zhě;lo	1
-第三只眼看零售	dì;vp sān;ae zhī;kb yǎn;og kàn;uo líng;ys shòu;rk	1
 第三中标候选人	dì;vp sān;ae zhòng;ll biāo;mx hòu;ru xuǎn;ze rén;pn	1
 第三周可吃普食	dì;vp sān;ae zhōu;kk kě;dk chī;kq pǔ;bo shí;rl	1
 蒂森克虏伯电梯	dì;cj sēn;mm kè;ue lǔ;hl bó;rb diàn;lv tī;mp	1
@@ -186435,7 +186438,7 @@ sort: by_weight
 肝血管瘤切除术	gān;og xuè;pm guǎn;vk liú;bt qiē;qd chú;eh shù;md	1
 感烟火灾探测器	gǎn;xx yān;hd huǒ;dr zāi;bh tàn;fm cè;dd qì;kk	1
 肝炎相关性肾病	gān;og yán;hh xiāng;mo guān;bt xìng;xu shèn;lo bìng;bb	1
-干眼性角膜瘢痕	gàn;au yǎn;og xìng;xu jiǎo;dy mó;od bān;by hén;bg	1
+干眼性角膜瘢痕	gān;au yǎn;og xìng;xu jiǎo;dy mó;od bān;by hén;bg	1
 肝胰壶腹括约肌	gān;og yí;oy hú;uy fù;ow kuò;fk yuē;su jī;oj	1
 感音神经性耳聋	gǎn;xx yīn;lo shén;pu jīng;sg xìng;xu ěr;aa lóng;le	1
 感应电磁勘探法	gǎn;xx yīng;ga diàn;lv cí;uy kān;ql tàn;fm fǎ;ds	1
