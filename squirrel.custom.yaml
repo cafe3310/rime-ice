@@ -2,7 +2,7 @@
 # https://github.com/rime/squirrel/blob/master/data/squirrel.yaml
 
 patch:
-
+  show_notifications_when: never
   app_options:
     io.kovidgoyal.kitty:
       vim_mode: true
