@@ -15,6 +15,8 @@ sort: original  #字典初始排序，可選original或by_weight
 4H	4H
 4X	4X
 7z	7z
+ddr4	ddr4
+ddr5	ddr5
 +86	jiā'86
 AA制	AA'zhì
 A班	A'bān
@@ -722,6 +724,10 @@ X和Y	X'hé'Y
 X教授	X'jiào'shòu
 X射线	X'shè'xiàn
 X战警	X'zhàn'jǐng
+即梦AI	jí'mèng'AI
+RNA病毒	RNA'bìng'dú
+负链RNA	fù'liàn'RNA
+R角	R'jiǎo
 Y-7	Y-7
 Y-8	Y-8
 Y-9	Y-9

@@ -1,4 +1,4 @@
---@amzxyz https://github.com/amzxyz/rime_wanxiang
+--@amzxyz https://github.com/amzxyz/rime-wanxiang
 --wanxiang_lookup: #设置归属于super_lookup.lua
   --tags: [ abc ]  # 检索当前tag的候选
   --key: "`"       # 输入中反查引导符
@@ -252,6 +252,10 @@ local function split_lookup_input(input, key, bypass_prefix)
     if bypass_prefix and bypass_prefix ~= "" and input:sub(1, #bypass_prefix) == bypass_prefix then
         scan_from = #bypass_prefix + 1
     end
+    local input_body = input:sub(scan_from)
+    if input_body:sub(1, #key) == key and not key:match("^%w+$") then
+        return nil
+    end
     local s_start, s_end = nil, nil
     local from = scan_from
     while true do
@@ -301,15 +305,6 @@ function f.init(env)
     local config = env.engine.schema.config
     env.enable_tone = config:get_bool('wanxiang_lookup/enable_tone')
     if env.enable_tone == nil then env.enable_tone = true end
-    
-    env.mem = Memory(env.engine, env.engine.schema)
-    
-    -- 🚀 实例化 Translator！让它在滤镜里为我们打工！
-    if Component and Component.Translator then
-        pcall(function() 
-            env.main_translator = Component.Translator(env.engine, "translator", "script_translator")
-        end)
-    end
     
     local sources_list = config:get_list('wanxiang_lookup/data_source')
     env.data_sources = {}
@@ -421,6 +416,14 @@ function f.func(input, env)
     local pure_code, fuma, s_start, s_end = split_lookup_input(ctx_input, env.search_key_str, env.bypass_prefix)
     if not s_start then for cand in input:iter() do yield(cand) end return end
     if #fuma == 0 then for cand in input:iter() do yield(cand) end return end
+    if not env.mem then
+        env.mem = Memory(env.engine, env.engine.schema)
+    end
+    if not env.main_translator and Component and Component.Translator then
+        pcall(function() 
+            env.main_translator = Component.Translator(env.engine, "translator", "script_translator")
+        end)
+    end
 
     local tone_filter_seq = {}
     local clean_fuma = ""
@@ -458,14 +461,66 @@ function f.func(input, env)
     else
         syllables = get_script_text_parts(ctx, env.search_key_str)
     end
-
+    
     for cand in input:iter() do
         local cand_len = get_utf8_len(cand.text)
-        
         if is_first_cand then
             is_first_cand = false
-            
-            if ((cand.type == 'sentence' and cand_len > 1) or (cand.type == 'phrase' and cand_len > 2)) and #syllables >= cand_len then
+            local syl_offset = 0
+            local spans = ctx.composition:spans()
+            if spans then
+                local vertices = type(spans.vertices) == "function" and spans:vertices() or spans.vertices
+                if vertices then
+                    for i = 1, #vertices - 1 do
+                        if vertices[i] < cand.start then
+                            syl_offset = syl_offset + 1
+                        else
+                            break
+                        end
+                    end
+                end
+            end
+
+            local current_syl_count = #syllables - syl_offset
+
+            if apply_tone_filter and clean_fuma == "" and #tone_filter_seq > 0 then
+                local tone_len = #tone_filter_seq
+                if current_syl_count == tone_len and env.main_translator then
+                    local pure_pinyin_parts = {}
+                    for k = 1, tone_len do
+                        local syl = syllables[k + syl_offset] 
+                        if syl then
+                            if #syl > 2 then syl = string.sub(syl, 1, 2) end
+                            table.insert(pure_pinyin_parts, syl .. tone_filter_seq[k])
+                        end
+                    end
+                    
+                    if #pure_pinyin_parts == tone_len then
+                        local query_str = table.concat(pure_pinyin_parts, "")
+                        local seg_trans = Segment(0, #query_str)
+                        seg_trans.tags = Set({"abc"})
+                        
+                        local ok, translation = pcall(function() return env.main_translator:query(query_str, seg_trans) end)
+                        local yielded_any = false
+                        
+                        if ok and translation then
+                            for c in translation:iter() do
+                                local custom_cand = Candidate(cand.type, cand.start, cand._end, c.text, c.comment)
+                                custom_cand.quality = c.quality
+                                custom_cand.preedit = cand.preedit
+                                yield(custom_cand)
+                                yielded_any = true
+                                break
+                            end
+                        end
+                        
+                        if yielded_any then
+                            goto skip
+                        end
+                    end
+                end
+            end
+            if ((cand.type == 'sentence' and cand_len > 1) or (cand.type == 'phrase' and cand_len > 2)) and #syllables >= (cand_len + syl_offset) then
                 local current_text = cand.text
                 local corrected_count = 0
                 local match_count = 0
@@ -483,12 +538,12 @@ function f.func(input, env)
                             local valid_window = true
                             
                             for k = 1, fuma_len do
-                                local syl = syllables[w_start + k - 1]
+                                local syl = syllables[w_start + k - 1 + syl_offset] 
                                 if not syl then valid_window = false break end
                                 if #syl > 2 then syl = string.sub(syl, 1, 2) end
                                 table.insert(pure_pinyin_parts, syl)
                             end
-                            
+
                             if valid_window then
                                 local query_str = table.concat(pure_pinyin_parts, "")
                                 local best_phrase = nil
@@ -562,7 +617,7 @@ function f.func(input, env)
                             local valid_window = true
                             
                             for k = 0, 1 do
-                                local syl = syllables[w_start + k]
+                                local syl = syllables[w_start + k + syl_offset] 
                                 if not syl then valid_window = false break end
                                 if #syl > 2 then syl = string.sub(syl, 1, 2) end
                                 table.insert(pure_pinyin_parts, syl)
@@ -636,8 +691,7 @@ function f.func(input, env)
                             
                             for i = search_end_idx, 1, -1 do
                                 local orig_char = get_utf8_char_at(current_text, i)
-                                local pinyin_code = syllables[i]
-                                
+                                local pinyin_code = syllables[i + syl_offset] 
                                 if not pinyin_code then goto next_i end
                                 if #pinyin_code > 2 then pinyin_code = string.sub(pinyin_code, 1, 2) end
                                 local probe_code = pinyin_code .. chunk_fuma
@@ -787,15 +841,18 @@ function f.func(input, env)
             if codes_seq then
                 local tone_match_pass = true
                 if apply_tone_filter then
-                    for k, tone_input in ipairs(tone_filter_seq) do
-                        if k > #codes_seq then break end
-                        local has_tone = list_contains(codes_seq[k], tone_input)
-                        if not has_tone and source_type == 'db' then
-                            if borrowed_tones[k] and borrowed_tones[k][tone_input] then has_tone = true end
-                        end
-                        if not has_tone then
-                            tone_match_pass = false
-                            break
+                    if #tone_filter_seq > #codes_seq then
+                        tone_match_pass = false
+                    else
+                        for k, tone_input in ipairs(tone_filter_seq) do
+                            local has_tone = list_contains(codes_seq[k], tone_input)
+                            if not has_tone and source_type == 'db' then
+                                if borrowed_tones[k] and borrowed_tones[k][tone_input] then has_tone = true end
+                            end
+                            if not has_tone then
+                                tone_match_pass = false
+                                break
+                            end
                         end
                     end
                 end

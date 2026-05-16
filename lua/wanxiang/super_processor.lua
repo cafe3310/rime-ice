@@ -1,6 +1,6 @@
 -- lua/super_processor.lua
 -- @amzxyz
--- https://github.com/amzxyz/rime_wanxiang
+-- https://github.com/amzxyz/rime-wanxiang
 -- 全能按键处理器：整合 KP小键盘、字母选词、符号快打、超强分词、重复限制、退格限制、声调回退、以词定字
 -- 
 -- 用法: 在 schema.yaml 中 engine/processors 列表添加 - lua_processor@*super_processor
@@ -741,6 +741,7 @@ local function handle_number_logic(key, env, ctx)
 end
 -- 5. 主入口函数 (Main Logic Flow)
 function M.func(key, env)
+    collectgarbage("step", 2)
     local ctx = env.engine.context
     
     -- 1. 优先处理按键释放
@@ -758,10 +759,10 @@ function M.func(key, env)
 
     if ctx.composition:empty() then
         if kc == 0xff0d or kc == 0xff8d or kc == 0x20 then
-            ctx:set_property("english_spacing", "true") 
+            _G.english_spacing_break = true
         end
         if kc == 0x5c or kc == 0x2f then
-            ctx:set_property("force_sticky_code", "true")
+            _G.force_sticky_code = true
         end
     end
 

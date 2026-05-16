@@ -1,7 +1,7 @@
 -- 万象家族lua,超级提示,表情\化学式\方程式\简码等等直接上屏,不占用候选位置
 -- 采用leveldb数据库,支持大数据遍历,支持多种类型混合,多种拼音编码混合,维护简单
 -- 支持候选匹配和编码匹配两种，候选支持方向键高亮遍历
--- https://github.com/amzxyz/rime_wanxiang
+-- https://github.com/amzxyz/rime-wanxiang
 -- 配置示例：
 -- super_tips:
 --   db_name: "lua/tips"   # 可选，自定义数据库名称/路径，默认值为 "lua/tips"
@@ -114,21 +114,20 @@ end
 function tips.init(config)
     if tips.status ~= "pending" then return end
 
-    -- 0. 获取自定义数据库名称并实例化，缺省为 "lua/tips"
+    -- 确保目录存在 (仅非特定发行版)
+    local dist = rime_api.get_distribution_code_name() or ""
+    if dist ~= "hamster" and dist ~= "hamster3" and dist ~= "Weasel" then
+        local user_lua_dir = rime_api.get_user_data_dir() .. "/lua"
+        tips.ensure_dir_exist(user_lua_dir .. "/data")
+    end
+    -- 获取自定义数据库名称并实例化，缺省为 "lua/tips"
     local db_name = config:get_string("super_tips/db_name")
     if not db_name or db_name == "" then
         db_name = "lua/tips"
     end
     tips_db = userdb.LevelDb(db_name)
 
-    -- 1. 确保目录存在 (仅非特定发行版)
-    local dist = rime_api.get_distribution_code_name() or ""
-    if dist ~= "hamster" and dist ~= "hamster3" and dist ~= "Weasel" then
-        local user_lua_dir = rime_api.get_user_data_dir() .. "/lua"
-        tips.ensure_dir_exist(user_lua_dir .. "/data")
-    end
-
-    -- 2. 读取 disabled_types 配置
+    -- 读取 disabled_types 配置
     local disabled_keys = {}
     local disabled_types_list = config:get_list("super_tips/disabled_types")
     if disabled_types_list then
@@ -143,7 +142,7 @@ function tips.init(config)
     table.sort(disabled_keys)
     local current_disabled_fingerprint = table.concat(disabled_keys, "|")
 
-    -- 3. 获取数据文件列表（支持 files 配置）
+    -- 获取数据文件列表（支持 files 配置）
     local files = {}
     local files_list = config:get_list("super_tips/files")
     if files_list then
@@ -167,7 +166,7 @@ function tips.init(config)
     -- 生成当前文件签名（所有文件组合）
     local current_signature = generate_files_signature(files)
 
-    -- 4. 打开数据库，检查是否需要重建
+    -- 打开数据库，检查是否需要重建
     tips_db:open()
     local needs_rebuild = false
 
